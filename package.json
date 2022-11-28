@@ -12,5 +12,8 @@
   },
   "dependencies": {
     "astro": "^1.6.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13"
   }
 }
