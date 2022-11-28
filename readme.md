@@ -15,3 +15,7 @@ When building in dev, the button is blue.
 Run `npm run build` then `npm run preview`, and the button will be green. 
 
 Deleting any one of the pages seems to avoid this issue.
+
+Removing the postcss.config.cjs also fixes the issue.
+
+**NOTE**: When making changes, you may need to rename the project's root folder before rebuilding, in order to clear some kind of internal Astro cache.  It doesn't hurt to launch the site with a fresh port, too, like `npx http-server dist -p 8009`.
